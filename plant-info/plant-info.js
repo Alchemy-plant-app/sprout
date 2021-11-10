@@ -1,4 +1,5 @@
 import { renderInfo } from './render-plant-info.js';
+// fancy aliasing!
 import * as su from '../storage-utils.js';
 
 const swapButton = document.getElementById('swap-button');

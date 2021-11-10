@@ -7,6 +7,7 @@ export function renderInfo(plantObject) {
 
     plantCard.classList.add('plant-card');
 
+    // great use of looping through the object keys
     for (let key in plantObject) {
         if (key === 'common-name') {
             header.textContent = plantObject[key];

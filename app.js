@@ -1,13 +1,5 @@
-// import functions and grab DOM elements
 const button1 = document.getElementById('pick-plants');
 const button2 = document.getElementById('plant-info');
-
-// initialize global state
-
-// set event listeners 
-  // get user input
-  // use user input to update state 
-  // update DOM to reflect the new state
 
 button1.addEventListener('click', ()=>{
     button1.textContent = 'Pick your Plants';                          
